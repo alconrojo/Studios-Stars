@@ -1,153 +1,328 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Studios Stars</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;700&display=swap">
-</head>
-<body>
-    <div class="bubbles">
-        <!-- Burbujas animadas -->
-        <div class="bubble" style="left: 10%; animation-duration: 8s; animation-delay: 2s;"></div>
-        <div class="bubble" style="left: 20%; animation-duration: 12s; animation-delay: 4s;"></div>
-        <div class="bubble" style="left: 30%; animation-duration: 10s; animation-delay: 6s;"></div>
-        <div class="bubble" style="left: 50%; animation-duration: 15s; animation-delay: 8s;"></div>
-        <div class="bubble" style="left: 60%; animation-duration: 9s; animation-delay: 3s;"></div>
-        <div class="bubble" style="left: 70%; animation-duration: 7s; animation-delay: 5s;"></div>
-        <div class="bubble" style="left: 80%; animation-duration: 11s; animation-delay: 7s;"></div>
-        <div class="bubble" style="left: 90%; animation-duration: 13s; animation-delay: 1s;"></div>
-        <div class="bubble" style="left: 30%; animation-duration: 10s; animation-delay: 6s;"></div>
-        <div class="bubble" style="left: 50%; animation-duration: 15s; animation-delay: 8s;"></div>
-        <div class="bubble" style="left: 60%; animation-duration: 9s; animation-delay: 3s;"></div>
-        <div class="bubble" style="left: 70%; animation-duration: 7s; animation-delay: 5s;"></div>
-        <div class="bubble" style="left: 80%; animation-duration: 11s; animation-delay: 7s;"></div>
-        <div class="bubble" style="left: 90%; animation-duration: 13s; animation-delay: 1s;"></div>
-        <div class="bubble" style="left: 30%; animation-duration: 10s; animation-delay: 6s;"></div>
-        <div class="bubble" style="left: 50%; animation-duration: 15s; animation-delay: 8s;"></div>
-        <div class="bubble" style="left: 60%; animation-duration: 9s; animation-delay: 3s;"></div>
-        <div class="bubble" style="left: 70%; animation-duration: 7s; animation-delay: 5s;"></div>
-        <div class="bubble" style="left: 80%; animation-duration: 11s; animation-delay: 7s;"></div>
-        <div class="bubble" style="left: 90%; animation-duration: 13s; animation-delay: 1s;"></div>
-    </div>
-    <header>
-        <div class="header-top">
-            <h1>Studios Stars</h1>
-            <img src="img/StudiosStarsLogo.png" alt="Logo servidor" style="height: 190px;" >
-            <nav>
-                <ul>
-                    <li><a href="#inicio" onclick="showSection('inicio')">Inicio</a></li>
-                    <li><a href="#diseños" onclick="showSection('diseños')">Diseños</a></li>
-                    <li><a href="#discord" onclick="showSection('discord')">Servidor de Discord</a></li>
-                    <li><a href="#clases" onclick="showSection('clases')">Clases</a></li>
-                    <li><a href="#venta_discords" onclick="showSection('venta_discords')">Venta de Discords</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <div class="main-content">
-        <section id="inicio" class="section">
-            <h2 class="section-title">Inicio</h2>
-            <p>Bienvenido a los Studios Stars. Por aqui os enseñaremos todos los avances que tengamos de los Studios.</p>
-        </section>
-        <section id="diseños" class="section" style="display: none;">
-            <h2 class="section-title">Diseños</h2>
-            <div class="gallery">
-                <div class="gallery-column">
-                    <div class="gallery-item">
-                        <img src="img/Diseño1.png" alt="Imagen 1">
-                        <div class="gallery-item-info">
-                            <h3>Diseño Profesional</h3>
-                            <p>Logo diseñado por nuestro Diseñador ST-Y para un usuario.Se han usado una escala cromatica azulacea.Diseño inspirado en el videojuego Minecraft.</p>
-                        </div>
-                    </div>
-                    <div class="gallery-item">
-                        <img src="img/Diseño2.png" alt="Imagen 2">
-                        <div class="gallery-item-info">
-                            <h3>Diseño Básico</h3>
-                            <p>Diseño realizado en nuestros studios diseñado para servidores de minecraft.</p>
-                        </div>
-                    </div>
-                    <div class="gallery-item">
-                        <img src="img/Diseño3.png" alt="Imagen 3">
-                        <div class="gallery-item-info">
-                            <h3>Diseño Básico</h3>
-                            <p>Diseño realizado en nuestros studios diseñado para servidores de minecraft.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="gallery-column">
-                    <div class="gallery-item">
-                        <img src="img/Diseño4.png" alt="Imagen 4">
-                        <div class="gallery-item-info">
-                            <h3>Diseño Profesional</h3>
-                            <p>Diseño realizado en nuestros studios diseñado para servidores de minecraft.</p>
-                        </div>
-                    </div>
-                    <div class="gallery-item">
-                        <img src="img/Diseño5.png" alt="Imagen 5">
-                        <div class="gallery-item-info">
-                            <h3>Diseño Básico</h3>
-                            <p>Diseño realizado en nuestros studios diseñado para servidores de minecraft.</p>
-                        </div>
-                    </div>
-                    <div class="gallery-item">
-                        <img src="img/Diseño7.png" alt="Imagen 6">
-                        <div class="gallery-item-info">
-                            <h3>Diseño Básico</h3>
-                            <p>Diseño realizado en nuestros studios diseñado para servidores de minecraft.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="gallery-column">
-                    <div class="gallery-item">
-                        <img src="img/Diseño8.png" alt="Imagen 7">
-                        <div class="gallery-item-info">
-                            <h3>Diseño Básico</h3>
-                            <p>Diseño realizado en nuestros studios diseñado para servidores de minecraft.</p>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="discord" class="section" style="display: none;">
-            <h2 class="section-title">Servidor de Discord</h2>
-            <p>Únete a nuestro servidor de Discord para participar en discusiones y obtener ayuda en tiempo real.</p>
-            <a href="https://discord.gg/Muzc6zahnm" class="discord-button" target="_blank">¡Únete a <b>Studios Stars</b>!</a>
-         </section>
-        <section id="clases" class="section" style="display: none;">
-            <h2 class="section-title">Clases</h2>
-            <p>Vamos a dar 2 tipos de clases, Clases de Diseño y Clases de Programacion.</p>
-            <p>CLASES DE DISEÑO 🏫</p>
-            <p>Clase Individual: 4.50€</p>
-            <p>Curso Completo (5 Clases): 35.00€</p>
-            <p>-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-</p>
-            <p>CLASES DE PROGRAMACION 🌐</p>
-            <p>Clase Individual: 9.50€</p>
-            <p>Curso Completo (5 Clases): 42.00€</p>
-        </section>
-        <section id="venta_discords" class="section" style="display: none;">
-            <h2 class="section-title">Venta de Servidores de Discord</h2>
-            <p>En esta categoria se venden servidores de discord a diferentes precios.</p>
-            <p>Plantilla-0,60</p>
-            <p>Plantilla + configuracion basica de 5 bots-1,70</p>
-            <p>Plantilla + configuracion avanzada de 10 bots-2,40</p>
-        </section>
-    </div>
-    <script>
-        function showSection(sectionId) {
-            var sections = document.querySelectorAll('.section');
-            sections.forEach(function(section) {
-                if (section.id === sectionId) {
-                    section.style.display = 'block';
-                } else {
-                    section.style.display = 'none';
-                }
-            });
-        }
-    </script>
-</body>
-</html>
+/* Importar la fuente de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@400;700&display=swap');
 
+/* Estilo general del cuerpo del documento */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #1f4037, #99f2c8);
+    color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    overflow-x: hidden;
+    position: relative;
+}
+
+/* Animación de partículas */
+.particles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    pointer-events: none;
+    background-image: radial-gradient(circle, rgba(42, 75, 124, 0.8) 1%, transparent 1%);
+    background-size: 3px 3px;
+    animation: particles 10s infinite linear;
+}
+
+@keyframes particles {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 400px 400px;
+    }
+}
+
+/* Animación de burbujas mejorada */
+.bubbles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.bubble {
+    position: absolute;
+    bottom: -100px;
+    width: 40px;
+    height: 40px;
+    background: radial-gradient(circle at 30% 30%, rgba(255, 255, 255, 0.8), rgba(0, 255, 188, 0.6));
+    border-radius: 50%;
+    animation: bubble 10s linear infinite, float 3s ease-in-out infinite;
+    opacity: 0.7;
+    box-shadow: inset -10px -10px 20px rgba(0, 0, 0, 0.2), 0 4px 10px rgba(0, 0, 0, 0.3);
+    filter: blur(1px);
+}
+
+.bubble:nth-child(even) {
+    animation-duration: 12s;
+    width: 50px;
+    height: 50px;
+}
+
+.bubble:nth-child(3n) {
+    animation-duration: 14s;
+    width: 60px;
+    height: 60px;
+}
+
+.bubble:nth-child(4n) {
+    animation-duration: 16s;
+    width: 45px;
+    height: 45px;
+}
+
+.bubble:nth-child(5n) {
+    animation-duration: 18s;
+    width: 55px;
+    height: 55px;
+}
+
+@keyframes bubble {
+    0% {
+        bottom: -100px;
+        transform: translateX(0) scale(1);
+        opacity: 0;
+    }
+    25% {
+        opacity: 0.4;
+    }
+    50% {
+        transform: translateX(100px) scale(1.2);
+        opacity: 0.8;
+    }
+    75% {
+        opacity: 0.4;
+    }
+    100% {
+        bottom: 100%;
+        transform: translateX(-200px) scale(1.4);
+        opacity: 0;
+    }
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+/* Estilo del encabezado */
+header {
+    background: linear-gradient(to bottom, rgba(33, 161, 208, 0.8), rgba(71, 137, 191, 0.6));
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(2, 93, 93, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+header h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3.5em;
+    animation: neon-flicker 1.5s infinite alternate;
+    text-shadow: 0 0 15px #00e676, 0 0 30px #00ff84, 0 0 45px #00e676;
+    letter-spacing: 3px;
+}
+
+@keyframes neon-flicker {
+    0%, 100% {
+        text-shadow: 0 0 10px #00e676, 0 0 20px #00ff84, 0 0 30px #00e676;
+    }
+    50% {
+        text-shadow: 0 0 15px #00e676, 0 0 30px #00ff84, 0 0 40px #00e676;
+    }
+}
+
+/* Estilo de la navegación */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+nav a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+    transition: all 0.4s ease;
+}
+
+nav a:hover::before {
+    left: 100%;
+}
+
+nav a:hover {
+    background-color: #00e676;
+    color: #121212;
+    box-shadow: 0 0 10px #00e676, 0 0 20px #00e676;
+    border-color: #00e676;
+    transform: translateY(-5px);
+}
+
+/* Estilo del contenido principal */
+.main-content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo de la galería */
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.gallery-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery-item {
+    background: linear-gradient(to bottom right, #1f1f1f, #000000);
+    border-radius: 12px;
+    border: 2px solid #00e676;
+    overflow: hidden;
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.4s ease;
+    max-width: 300px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.gallery-item:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.gallery-item-info {
+    padding: 15px;
+    text-align: center;
+}
+
+.gallery-item-info h3 {
+    margin: 10px 0;
+    font-weight: 700;
+    color: #00e676;
+    text-shadow: 0 0 8px #00e676, 0 0 12px #00e676;
+    animation: neon-flicker 1.8s infinite alternate;
+}
+
+.gallery-item-info p {
+    margin: 0;
+    color: #ccc;
+}
+
+/* Estilo de las secciones */
+.section {
+    padding: 40px;
+    margin: 40px 0;
+    background: rgba(20, 20, 20, 0.95);
+    border-radius: 12px;
+    border: 2px solid #00e676;
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+}
+
+.section-title {
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: #00e676;
+    text-shadow: 0 0 8px #00e676, 0 0 12px #00e676;
+    animation: neon-flicker 1.8s infinite alternate;
+}
+
+/* Estilo del pie de página */
+footer {
+    background-color: rgba(30, 136, 229, 0.95);
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    box-shadow: 0 -6px 12px rgba(0, 0, 0, 0.4);
+    position: fixed;
+    bottom: 0;
+}
+
+/* Estilo del widget de Discord */
+.discord-widget {
+    width: 100%;
+    max-width: 500px;
+    height: 500px;
+    overflow: hidden;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 30px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+}
+
+.discord-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #7289da;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 25px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.discord-button:hover {
+    transform: scale(1.05);
+}
+ 
